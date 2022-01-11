@@ -14,7 +14,7 @@ rather than the pure JavaScript used previously.
 ## Installation
 
 There is no special installation required, besides having `indra`, `indra_db`,
-and their various dependancies installed and available on your python path.
+and their various dependencies installed and available on your python path.
 
 
 ## Running
@@ -24,7 +24,9 @@ pickle file somewhere, with path `/path/to/workingdir`. You then start up
 the service:
 
 ```
-python /path/to/curation_service/app.py /path/to/workingdir <label> <your@email.com>
+$ git clone https://github.com/indralab/indra_curation
+$ cd indra_curation
+$ src/indra_curation/app.py /path/to/workingdir <label> <your@email.com>
 ```
 
 The first option indicates the _directory_ containing the statement pickles,
